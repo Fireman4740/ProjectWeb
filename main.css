@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600&family=Open+Sans&display=swap');
+body,nav,html{
+    background: #F3F6FA;
+}
+
+a.nav-link.Home{
+    color: #05668D;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 18px;
+}
+a.nav-link{
+    color: #4F4F4F;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 18px;
+}
+.btn{
+    padding: .4rem 1.9rem;
+}
