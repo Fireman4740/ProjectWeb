@@ -50,13 +50,27 @@ a.nav-link{
    background-color: #05668D;
     color: #ffffff;
 }
+.btn-green{
+    background: #02C39A;
+    border-color: #02C39A;
+    height: 60px;
+    padding: 1rem 2.9rem;
+    font-family: 'Odibee Sans' ;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: 0.175em;
+    color: #333333;
+    border: 4px solid #FFFFFF;
+}
 
 .login{
     position: relative;
     vertical-align: middle;
     justify-content: center;
-    padding: 2vw;
-    
+    /* padding: 2vw;
+     */
     /* left: 25vw; */
     /* margin-top: 25vw; 
     margin-bottom: 25vw;  */
@@ -72,18 +86,30 @@ a.nav-link{
     margin-left: auto;
     margin-right: auto;
 } 
+.form-control-lg{
+    max-width: 100%;
+    width: 100%;
+    border: 3px solid #02C39A;
+}
+.form-check-input:checked{
+    background-color: #05668d;
+    border-color: #05668d;
+}
 .imagelogin{
     position: absolute;
-    /* left:65vw;
-    top: 260px; */
-    /* -webkit-transform :rotate(11.92deg);
+    left:60vw;
+    top: 25px;
+    -webkit-transform :rotate(11.92deg);
     -moz-transform :rotate(11.92deg);
     -ms-transform :rotate(11.92deg);
-    transform: rotate(11.92deg); */
+    transform: rotate(11.92deg);
     z-index: 1;
     overflow: hidden;
     margin-left: auto;
-    margin-right: auto ;
+    margin-right: auto;
+    /* max-width: 100%;
+    height: auto; */
+    overflow: hidden;
 }
 .imageloginman{
     position: absolute;
@@ -100,6 +126,7 @@ a.nav-link{
 h1{
     font-family: 'Odibee Sans' ;
     font-style: normal;
+    font-size: 60px;
     font-weight: normal;
     margin: 0;
     letter-spacing: 0.175em;
@@ -202,19 +229,25 @@ p.p-home{
     }
     .login{
     
-        padding: 5vw 7vw;
+        /* padding: 5vw 7vw; */
         width: 60vw;
         /* margin-left: auto;
         margin-right: auto; */
+    }
+    .imagelogin{
+        top: 25px;
     }
 
 }
 @media screen and ( max-width: 600px){
     .login{
         
-        padding: 5vw 7vw;
+        /* padding: 5vw 7vw; */
         width: 300px;
         /* margin-left: auto;
         margin-right: auto; */
+    }
+    .imagelogin{
+        top:20px
     }
 } 
