@@ -132,10 +132,60 @@ h1{
     letter-spacing: 0.175em;
     color: #000000;
 }
-
-
-
-
+.imgprofil{
+    width: 100%;
+}
+.cardprofil{
+    background-color: #FFBED4;
+}
+.card{
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+p.pp{
+    font-size: 30px;
+    font-family: 'Odibee Sans' ;
+    font-style: normal;
+    margin-bottom: 0;
+}
+h4.card-title{
+    font-family: 'Odibee Sans' ;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 0.175em;
+    color: #000000;
+    padding-left: 10px;
+    
+}
+h5.card-title{
+    font-family: 'Odibee Sans' ;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0.175em;
+    color: #000000;
+    padding-left: 10px;
+    
+}
+.card-body{
+   
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.cardbuss{
+    background-color:#E8E7FF ;
+}
+.cardstaff{
+    background-color: #E8E7FF;
+}
+.cardapp{
+    background-color: rgba(255, 181, 0, 0.36);;
+}
+.cardoffers{
+    background-color:#F2E6DA ;
+}
 
 
 
