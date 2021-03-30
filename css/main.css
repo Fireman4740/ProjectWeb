@@ -64,6 +64,9 @@ a.nav-link{
     color: #333333;
     border: 4px solid #FFFFFF;
 }
+.form-btn{
+    min-width: 220px;
+}
 
 .login{
     position: relative;
@@ -173,6 +176,8 @@ h5.card-title{
    
     padding-top: 0;
     padding-bottom: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 .cardbuss{
     background-color:#E8E7FF ;
@@ -247,6 +252,31 @@ p.p-home{
     position: relative;
     top: 2rem;
 }
+.form-stu{
+    position: relative;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.company{
+    /* background-image:url("../img/Brainstorming.png"); */
+    width: 70vw;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: pink; */
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+.imgcompany{
+    width: 100%;
+}
 
 @media (min-width: 1500px){
     .text-home{
@@ -287,17 +317,39 @@ p.p-home{
     .imagelogin{
         top: 25px;
     }
+    .form-stu{
+        
+        margin-top: 0;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .btn{
+        font-size: 30px;
+    }
 
 }
 @media screen and ( max-width: 600px){
     .login{
         
         /* padding: 5vw 7vw; */
-        width: 300px;
+        width: 200px;
         /* margin-left: auto;
         margin-right: auto; */
+    }
+    .form-control-lg{
+        min-width: 200px;
+
+    }
+    .form-stu{
+        
+        margin-top: 0;
+    }
+    h1{
+        font-size: 30px;
     }
     .imagelogin{
         top:20px
     }
+    
 } 
