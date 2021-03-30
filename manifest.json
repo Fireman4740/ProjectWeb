@@ -1,0 +1,15 @@
+
+{
+    "name": "ProjectWeb",
+    "short_name": "Web",
+    "lang": "en-US",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#F3F6FA",
+    "theme_color": "white",
+    "icons": [{
+        "src": "img/Hands - Earth.png",
+          "sizes": "50x44",
+          "type": "image/png"
+        }]
+  }

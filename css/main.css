@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+body{
+    background-color: #F3F6FA;
+    height: 100%;
+}
+.row{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+a.nav-link.Home{
+    color: #05668D;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size:1.3rem;
+    line-height: 18px;
+}
+a.nav-link{
+    color: #4F4F4F;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem ;
+    line-height: 18px;
+    padding: .5vw 1vw;
+}
+
+.btn{
+    padding: .4rem 2.2rem;
+}
+.btn-blue{
+    color: white;
+    background: #05668D;
+    border-color: #05668D;
+    padding: .6rem 2.3rem;
+}
+/* .btn-blue:hover{
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    border-color: #05668D;
+    padding: .4rem 2.2rem;
+    border: 4px solid #05668D;
+} */
+.btn-borderblue{
+    margin-left: 10px;
+    border: 3px solid #05668D;
+}
+.btn-borderblue:hover{
+   background-color: #05668D;
+    color: #ffffff;
+}
+.btn-green{
+    background: #02C39A;
+    border-color: #02C39A;
+    height: 60px;
+    padding: 1rem 2.9rem;
+    font-family: 'Odibee Sans' ;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    letter-spacing: 0.175em;
+    color: #333333;
+    border: 4px solid #FFFFFF;
+}
+.form-btn{
+    min-width: 220px;
+}
+
+.login{
+    position: relative;
+    vertical-align: middle;
+    justify-content: center;
+    /* padding: 2vw;
+     */
+    /* left: 25vw; */
+    /* margin-top: 25vw; 
+    margin-bottom: 25vw;  */
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    /* margin: 0;     */
+
+    width: 50%;
+    
+    margin-top: 200px;
+    max-width: 700px;
+    
+    margin-left: auto;
+    margin-right: auto;
+} 
+.form-control-lg{
+    max-width: 100%;
+    width: 100%;
+    border: 3px solid #02C39A;
+}
+.form-check-input:checked{
+    background-color: #05668d;
+    border-color: #05668d;
+}
+.imagelogin{
+    position: absolute;
+    left:60vw;
+    top: 25px;
+    -webkit-transform :rotate(11.92deg);
+    -moz-transform :rotate(11.92deg);
+    -ms-transform :rotate(11.92deg);
+    transform: rotate(11.92deg);
+    z-index: 1;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 100%;
+    height: auto; */
+    overflow: hidden;
+}
+.imageloginman{
+    position: absolute;
+    left:-1vh;
+    top: 600px;
+    -webkit-transform : rotate(-25deg) scale(1.4);
+    -moz-transform    : rotate(-25deg) scale(1.4);/* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform     : rotate(-25deg) scale(1.4); /* IE 9 */
+    transform         : rotate(-25deg) scale(1.4); /* Firefox 16+, IE 10+, Opera */
+    z-index: 2;
+    /* overflow: hidden; */
+}
+
+h1{
+    font-family: 'Odibee Sans' ;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: 0.175em;
+    color: #000000;
+}
+.imgprofil{
+    width: 100%;
+}
+.cardprofil{
+    background-color: #FFBED4;
+}
+.card{
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+p.pp{
+    font-size: 30px;
+    font-family: 'Odibee Sans' ;
+    font-style: normal;
+    margin-bottom: 0;
+}
+h4.card-title{
+    font-family: 'Odibee Sans' ;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 0.175em;
+    color: #000000;
+    padding-left: 10px;
+    
+}
+h5.card-title{
+    font-family: 'Odibee Sans' ;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 0.175em;
+    color: #000000;
+    padding-left: 10px;
+    
+}
+.card-body{
+   
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.cardbuss{
+    background-color:#E8E7FF ;
+}
+.cardstaff{
+    background-color: #E8E7FF;
+}
+.cardapp{
+    background-color: rgba(255, 181, 0, 0.36);;
+}
+.cardoffers{
+    background-color:#F2E6DA ;
+}
+
+
+
+
+ul.nav{
+    margin-right: 10vw;
+
+}
+a.navbar-brand{
+    margin-right: 8vw;
+}
+.container-fluid{
+    width:auto;
+}
+
+.text-home{
+    position: relative;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5.5vw;
+    line-height: 50px;
+    /* or 0px */
+    align-items: center;
+    letter-spacing: -0.05em;
+    
+    color: #000000;
+    /* padding-left: 10vw; */
+    margin-bottom: 1.5vw;
+}
+section{
+    /* height: 60vw; */
+    margin-top: 40px;
+    display: block;
+}
+/* .img-fluid{
+    height: 55vw;
+} */
+img{
+    align-items: center;
+    vertical-align: middle;
+    border-style: none;
+}
+p.p-home{
+    position: relative;
+    align-items: center;
+    letter-spacing: -0.05em;
+    
+    color: #000000;
+    padding-left: 0.5vw;
+    margin-bottom: 1.5vw;
+}
+.top{
+     position: relative;
+     padding: 5em 0;
+     
+}
+.top-image{
+    position: relative;
+    top: 2rem;
+}
+.form-stu{
+    position: relative;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.company{
+    /* background-image:url("../img/Brainstorming.png"); */
+    width: 70vw;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: pink; */
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+.imgcompany{
+    width: 100%;
+}
+
+@media (min-width: 1500px){
+    .text-home{
+        margin-bottom: 25px;
+        font-size: 85px;
+    }
+    /* .imagelogin,.imageloginman{
+        position: sticky;
+        position: -webkit-sticky;
+    }
+     */
+    
+}
+@media screen and (max-width: 1000px){
+    .top{
+        padding-top: 10rem;
+    }
+    .text-home{
+        font-size: 3.5rem;
+    }
+    p.p-home{
+        font-size: 1.2rem;
+    }
+    .btn{
+        padding: .4rem 2.5rem;
+        margin-left: .3rem;
+    }
+    .btn-blue{
+        font-size: 1.2rem;
+    }
+    .login{
+    
+        /* padding: 5vw 7vw; */
+        width: 60vw;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    .imagelogin{
+        top: 25px;
+    }
+    .form-stu{
+        
+        margin-top: 0;
+    }
+    h1{
+        font-size: 45px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+
+}
+@media screen and ( max-width: 600px){
+    .login{
+        
+        /* padding: 5vw 7vw; */
+        width: 200px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    .form-control-lg{
+        min-width: 200px;
+
+    }
+    .form-stu{
+        
+        margin-top: 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .imagelogin{
+        top:20px
+    }
+    
+} 
